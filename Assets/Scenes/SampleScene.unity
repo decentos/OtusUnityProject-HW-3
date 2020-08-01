@@ -267,6 +267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoliceMan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4994127176452716737, guid: ec4b6a0b6924a2e419f93c7a483c42f1,
+        type: 3}
+      propertyPath: SoundPlay
+      value: 
+      objectReference: {fileID: 1179020618}
     - target: {fileID: 7825691635963571171, guid: ec4b6a0b6924a2e419f93c7a483c42f1,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1176,6 +1181,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1233,6 +1239,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4452151162668472349, guid: 9f6b6093c8242ac4bb871ec8bf4649c5,
+        type: 3}
+      propertyPath: SoundPlay
+      value: 
+      objectReference: {fileID: 241787337}
     - target: {fileID: 7492144366031563836, guid: 9f6b6093c8242ac4bb871ec8bf4649c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2244,6 +2255,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2362,6 +2374,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2587,7 +2600,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b9834737d04faf8a376eb263dd1c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: ae63fc2598dac794f8afa2b355992339, type: 3}
+  _clip: {fileID: 8300000, guid: 45443a33689f4f04c804293db72b978c, type: 3}
+  _damageClip: {fileID: 8300000, guid: 4e5603af51649224db3b505842720b6a, type: 3}
+  _deathClip: {fileID: 8300000, guid: 6789299ea9ce460479ee356feb633e6a, type: 3}
 --- !u!1001 &266321640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2670,6 +2685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PoliceMan
       objectReference: {fileID: 0}
+    - target: {fileID: 4994127176452716737, guid: ec4b6a0b6924a2e419f93c7a483c42f1,
+        type: 3}
+      propertyPath: SoundPlay
+      value: 
+      objectReference: {fileID: 1618830243}
     - target: {fileID: 7825691635963571171, guid: ec4b6a0b6924a2e419f93c7a483c42f1,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -3737,6 +3757,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3877,6 +3898,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4398,6 +4420,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4656,6 +4679,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.7957734, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5276,6 +5300,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5314,7 +5339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -235.09998, y: -96.8999}
+  m_AnchoredPosition: {x: -235.09961, y: -96.899414}
   m_SizeDelta: {x: 470.19995, y: 193.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1094277055
@@ -5533,6 +5558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clip: {fileID: 8300000, guid: ae63fc2598dac794f8afa2b355992339, type: 3}
+  _damageClip: {fileID: 8300000, guid: 20b377534885f8a4f8ef588309f51620, type: 3}
+  _deathClip: {fileID: 8300000, guid: ef38b73935dc02448aea06e44fb827ad, type: 3}
 --- !u!1001 &1190149068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5762,6 +5789,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5898,6 +5926,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5951,6 +5980,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3408229656522174096, guid: 2d3bdd141f8b8244e8db7b0ee8540ba3,
+        type: 3}
+      propertyPath: SoundPlay
+      value: 
+      objectReference: {fileID: 2096390662}
     - target: {fileID: 4022456353391684353, guid: 2d3bdd141f8b8244e8db7b0ee8540ba3,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -7023,6 +7057,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.122641504, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7288,6 +7323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clip: {fileID: 8300000, guid: ae63fc2598dac794f8afa2b355992339, type: 3}
+  _damageClip: {fileID: 8300000, guid: 20b377534885f8a4f8ef588309f51620, type: 3}
+  _deathClip: {fileID: 8300000, guid: ef38b73935dc02448aea06e44fb827ad, type: 3}
 --- !u!1001 &1635793569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7397,6 +7434,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7470,6 +7508,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8033,7 +8072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b9834737d04faf8a376eb263dd1c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: ae63fc2598dac794f8afa2b355992339, type: 3}
+  _clip: {fileID: 8300000, guid: 65e955753ec98f048a8edac491403be9, type: 3}
+  _damageClip: {fileID: 8300000, guid: 4e5603af51649224db3b505842720b6a, type: 3}
+  _deathClip: {fileID: 8300000, guid: 7e6c5c4add637db46b23219048b77bec, type: 3}
 --- !u!82 &2096390663
 AudioSource:
   m_ObjectHideFlags: 0
