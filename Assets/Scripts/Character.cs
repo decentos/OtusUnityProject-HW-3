@@ -147,6 +147,7 @@ public class Character : MonoBehaviour
     {
         animator.SetTrigger("died");
         SetState(State.Dead);
+        SoundPlay.PlayDeath();
     }
 
     public void DoDamageToTarget()

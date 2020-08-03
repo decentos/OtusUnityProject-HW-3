@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     public Character[] playerCharacters;
     public Character[] enemyCharacters;
+    public FinishSoundPlay finishSound;
     Character currentTarget;
     bool waitingPlayerInput;
 
@@ -63,11 +64,13 @@ public class GameController : MonoBehaviour
     void PlayerWon()
     {
         Debug.Log("Player won");
+        finishSound.PlayWin();
     }
 
     void PlayerLost()
     {
         Debug.Log("Player lost");
+        finishSound.PlayLose();
     }
 
     Character FirstAliveCharacter(Character[] characters)
